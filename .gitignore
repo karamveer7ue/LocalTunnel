@@ -1,0 +1,5 @@
+# Holds your token.
+server/config.php
+# Runtime state: tunnels, queued requests, and bodies in transit.
+server/data/
+__pycache__/

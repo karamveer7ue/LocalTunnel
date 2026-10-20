@@ -1,0 +1,9 @@
+# Static analysis for the PHP server. Run `phpstan` in this folder, for example after
+# `composer global require phpstan/phpstan`.
+parameters:
+    level: 8
+    phpVersion: 80100
+    paths:
+        - server/src
+        - server/index.php
+        - server/views
